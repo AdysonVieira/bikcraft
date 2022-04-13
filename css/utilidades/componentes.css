@@ -1,0 +1,15 @@
+/* Botão Primário */
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#ffbf00, #f2a50c);
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    margin-bottom: 32px;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.botao:hover {
+    background: linear-gradient(#ffb60d,#e59317);
+}

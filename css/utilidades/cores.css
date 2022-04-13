@@ -1,0 +1,32 @@
+:root {
+    --cor-branco: #ffffff;
+    --cor-500: #b5b5b5;
+    --cor-1000: #2e2e2e;
+    --cor-1100: #111111;
+    --cor-1200: #000000;
+    --cor-p100: #ffbb00;
+}
+
+.cor-branco {
+    color: var(--cor-branco);
+}
+
+.cor-500 {
+    color: var(--cor-500);
+}
+
+.cor-1000 {
+    color: var(--cor-1000);
+}
+
+.cor-1100 {
+    color: var(--cor-1100);
+}
+
+.cor-1200 {
+    color: var(--cor-1200);
+}
+
+.cor-p100 {
+    color: var(--cor-p100);
+}
