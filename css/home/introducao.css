@@ -28,6 +28,10 @@
     margin-bottom: 20px;
 }
 
+.introducao a {
+    margin-bottom: 32px;
+}
+
 @media (max-width: 1200px) {
     .introducao h1 {
         font-size: 48px;

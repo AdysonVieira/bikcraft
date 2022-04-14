@@ -11,11 +11,10 @@
 
 /* Home */
 @import './css/home/introducao.css';
-
-/* Bicicletas */
 @import './css/bicicletas/home-bicicletas.css';
-
-/* Tecnologia */
 @import './css/home/tecnologia.css';
+@import './css/home/parceiros.css';
+@import './css/home/depoimento.css';
+@import './css/seguros/seguros.css';
 
 

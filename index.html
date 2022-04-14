@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header-bg">
@@ -23,21 +23,22 @@
             </nav>
         </div>
     </header>
-    
+    <!-- HOME -->
     <main class="introducao-bg">
         <div class="introducao container">
             <div class="introducao-conteudo">
                 <h1 class="titulo-xl cor-branco">Bicicletas feitas sob medida<span class="cor-p100">.</span></h1>
                 <p class="texto-m cor-500">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+                <a class="botao-primario" href="./bicicletas.html">Escolha a sua</a>
             </div>
-            <div>
+            <div class="introducao-img">
                 <img src="img/fotos/introducao.jpg" alt="bicicleta elétrica preta.">
             </div>
         </div>
     </main>
+    <!-- BICILETAS -->
     <article class="home-bicicletas container">
-        <h1 class="titulo-xl">escolha a sua<span class="cor-p100">.</span></h1>
+        <h2 class="titulo-xl">escolha a sua<span class="cor-p100">.</span></h2>
         <ul>
             <li>
                 <a href="bicicletas/magic.html">
@@ -62,13 +63,14 @@
             </li>
         </ul>
     </article>
+    <!-- TECNOLOGIA -->
     <article class="tecnologia-bg">
         <div class="tecnologia container">
             <div class="tecnologia-conteudo">
                 <span class="sob-titulo cor-500">tecnologia avançada</span>
-                <h2 class="titulo-xl cor-branco">você escolhe as suas cores e componentes <span class="cor-p100">.</span></h2>
+                <h2 class="titulo-xl cor-branco">você escolhe as suas cores e componentes<span class="cor-p100">.</span></h2>
                 <p class="texto-m cor-500">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
-                <a class="botao" href="#">Escolha um modelo</a>
+                <a class="botao-primario" href="#">Escolha um modelo</a>
                 <div class="tecnologia-conteudo-vantagens">
                     <div class="tecnologia-conteudo-motor">
                         <img src="img/icones/eletrica.svg" alt="">
@@ -83,6 +85,69 @@
                 </div>
             </div>
             <div class="tecnologia-img"><img src="img/fotos/tecnologia.jpg" alt="ferramentas"></div>
+        </div>
+    </article>
+    <!-- PARCEIROS -->
+    <section class="parceiros container" aria-label="Nossos Parceiros">
+        <h2 class="titulo-xl">nossos parceiros<span class="cor-p100">.</span></h2>
+        <ul>
+            <li><img src="img/parceiros/caravan.svg" alt=""></li>
+            <li><img src="img/parceiros/ranek.svg" alt=""></li>
+            <li><img src="img/parceiros/handel.svg" alt=""></li>
+            <li><img src="img/parceiros/dogs.svg" alt=""></li>
+            <li><img src="img/parceiros/lescone.svg" alt=""></li>
+            <li><img src="img/parceiros/flexblog.svg" alt=""></li>
+            <li><img src="img/parceiros/wildbeast.svg" alt=""></li>
+            <li><img src="img/parceiros/surfbot.svg" alt=""></li>
+        </ul>
+    </section>
+    <!-- DEPOIMENTO -->
+    <section class="depoimento" aria-label="Depoimento">
+        <div>
+            <img src="img/fotos/depoimento.jpg" alt="mulher pedalando">
+        </div>
+        <div class="depoimento-conteudo">
+            <blockquote class="titulo-l cor-p500">
+                <p>Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
+            </blockquote>
+            <span class="titulo-m cor-p400">Maria Eduarda</span>
+        </div>
+    </section>
+
+    <!-- SEGUROS -->
+    <article class="seguros-bg">
+        <div class="seguros container">
+            <h2 class="titulo-xl cor-branco">seguros<span class="cor-p100">.</span></h2>
+            <div class="seguros-conteudo">
+                <div class="seguros-card">
+                    <div class="plano-preco">
+                        <h3 class="titulo-l cor-500 plano">Prata</h3>
+                        <span class="titulo-l cor-branco preco">R$ 199</span>
+                    </div>
+                    <ul class="texto-m cor-branco">
+                        <li>Duas trocas por ano</li>
+                        <li>Assistência técnica</li>
+                        <li>Suporte 08h às 18h</li>
+                        <li>Cobertura estadual</li> 
+                    </ul>
+                    <a class="botao-secundario" href="#">inscreva-se</a>
+                </div>
+                <div class="seguros-card">
+                    <div class="plano-preco">
+                        <h3 class="titulo-l cor-p100 plano">Ouro</h3>
+                        <span class="titulo-l cor-branco preco">R$ 299</span>
+                    </div>
+                    <ul class="texto-m cor-branco">
+                        <li>Cinco trocas por ano</li>
+                        <li>Assistência especial</li>
+                        <li>Suporte 24h</li>
+                        <li>Cobertura nacional</li> 
+                        <li>Desconto em parceiros</li> 
+                        <li>Acesso ao Clube Bikcraft</li> 
+                    </ul>
+                    <a class="botao-primario" href="#">inscreva-se</a>
+                </div>
+            </div>
         </div>
     </article>
 </body>
