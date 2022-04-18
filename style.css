@@ -6,8 +6,9 @@
 @import './css/utilidades/cores.css';
 @import './css/utilidades/componentes.css';
 
-/* Header */
+/* Global */
 @import './css/global/header.css';
+@import './css/global/footer.css';
 
 /* Home */
 @import './css/home/introducao.css';

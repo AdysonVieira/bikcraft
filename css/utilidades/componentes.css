@@ -1,29 +1,46 @@
 /* Botão Primário */
-.botao-primario {
+.botao {
     display: inline-block;
     padding: 16px 32px;
-    background: linear-gradient(#ffbf00, #f2a50c);
     border-radius: 4px;
     text-transform: uppercase;
-    color: #332200;
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
 
-.botao-primario:hover {
+.primario {
+    background: linear-gradient(#ffbf00, #f2a50c);
+    color: var(--cor-p500);
+}
+
+.primario:hover {
     background: linear-gradient(#ffb60d,#e59317);
 }
 
 /* Botão Secundário */
-.botao-secundario {
-    display: inline-block;
-    padding: 16px 32px;
+.secundario {
     background: var(--cor-900);
-    border-radius: 4px;
-    text-transform: uppercase;
     color: var(--cor-branco);
-    font: 600 1.125rem/1.35 "Poppins", sans-serif;
 }
 
-.botao-secundario:hover {
+.secundario:hover {
     background: var(--cor-1000);
+}
+
+/* Titulo das páginas */
+
+.titulo-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--cor-1100);
+}
+
+.titulo p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .titulo-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
