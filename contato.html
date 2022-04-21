@@ -39,7 +39,7 @@
          <!-- contato -->
          <div class="contato-bg">
             <div class="contato container">
-                <div class="contato-dados">
+                <section class="contato-dados" aria-label="Endereço">
                     <h3 class="titulo-m cor-branco">Loja Online</h3>
                     <div class="contato-dados-grid texto-s cor-400">
                         <img src="img/icones/local.svg" alt="">
@@ -59,33 +59,83 @@
                         <ul>
                             <li><a href="tel:+552199999999">+55 21 9999-9999</a></li>
                         </ul> 
+                        <div class="contato-social">
+                            <a href="#">
+                                <img src="img/redes/instagram-p.svg" alt="Instagram">
+                            </a>
+                            <a href="#">
+                                <img src="img/redes/facebook-p.svg" alt="Facebook">
+                            </a>
+                            <a href="#">
+                                <img src="img/redes/youtube-p.svg" alt="Youtube">
+                            </a>
+                        </div>
                     </div>
-                   <div class="contato-social">
-                        <a href="#">
-                            <img src="img/redes/instagram-p.svg" alt="Instagram">
-                        </a>
-                        <a href="#">
-                            <img src="img/redes/facebook-p.svg" alt="Facebook">
-                        </a>
-                        <a href="#">
-                            <img src="img/redes/youtube-p.svg" alt="Youtube">
-                        </a>
-                   </div>
-                </div>
-                <div class="contato-formulario">
-                    <form class="formulario" action="">
+                </section>
+                <section class="contato-formulario" aria-label="Formulário">
+                    <form class="formulario" action="./contato.html">
                         <div class="contato-nome">
                             <label for="nome">Nome</label>
-                            <input type="text" id="nome" placeholder="Seu nome">
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
                         </div>
                         <div class="contato-telefone">
                             <label for="tel">Telefone</label>
-                            <input type="tel" id="tel" placeholder="(21) 99999-9999">
+                            <input type="text" id="tel" name="numero" placeholder="(21) 99999-9999">
                         </div>
+                        <div class="form-col-2">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="contato@email.com" required>
+                        </div>
+                        <div class="form-col-2">
+                            <label for="msg">Mensagem</label>
+                            <textarea rows="6" type="text" id="msg" name="msg" placeholder="O que você precisa?"></textarea>
+                        </div>
+                        <button type="submit" class="botao primario form-col-2">Enviar Mensagem</button>
                     </form>
-                </div>
+                </section>
             </div>
         </div>
+        <section class=" lojas container" aria-label="Endereço">
+            <h2 class="titulo-xl cor-1100">lojas locais<span class="cor-p100">.</span></h2>
+            <div class="card-lojas">
+                <div class="card">
+                    <img src="img/lojas/sp.jpg" alt="">
+                    <div class="card-conteudo">
+                        <h3 class="titulo-l">Olho d'Água </h3>
+                        <ul class="texto-s cor-800">
+                            <li>Rua Ali Perto, 27</li>
+                            <li>Centro, AL</li>
+                        </ul>
+                        <ul class="texto-s cor-800">
+                            <li>mcz@bikcraft.com</li>
+                            <li>+55 82 99999-9999</li>
+                        </ul>
+                        <div class="card-horario">
+                            <img src="img/icones/horario.svg" alt="">
+                            <span class="titulo-m cor-1000">08-18h de seg à dom</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/lojas/rj.jpg" alt="">
+                    <div class="card-conteudo">
+                        <h3 class="titulo-l">Maceió</h3>
+                        <ul class="texto-s cor-800">
+                            <li>Rua Ali Perto, 27</li>
+                            <li>Centro, AL</li>
+                        </ul>
+                        <ul class="texto-s cor-800">
+                            <li>mcz@bikcraft.com</li>
+                            <li>+55 82 99999-9999</li>
+                        </ul>
+                        <div class="card-horario">
+                            <img src="img/icones/horario.svg" alt="">
+                            <span class="titulo-m cor-1000">08-18h de seg à dom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     
     <!-- FOOTER -->

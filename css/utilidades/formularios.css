@@ -1,0 +1,31 @@
+.formulario label {
+    display: block;
+    font: 400 1rem/1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;
+}
+
+.form-col-2 {
+    grid-column: span 2;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    padding: 12px;
+    border-radius: 4px;
+    background: var(--cor-100);
+    border: 1px solid var(--cor-200);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus,
+button:focus {
+    outline: none;
+    background: var(--cor-branco);
+    border: 1px solid var(--cor-p200);
+    box-shadow: 0 0 0 2px var(--cor-p100);
+}
