@@ -1,3 +1,13 @@
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.formulario button {
+    justify-self: start;
+}
+
 .formulario label {
     display: block;
     font: 400 1rem/1.5 "Poppins", sans-serif;
@@ -28,4 +38,14 @@ button:focus {
     background: var(--cor-branco);
     border: 1px solid var(--cor-p200);
     box-shadow: 0 0 0 2px var(--cor-p100);
+}
+
+@media (max-width: 600px) {
+    .formulario {
+        grid-template-columns: 1fr;
+    }
+
+    .form-col-2 {
+        grid-column: 1;
+    }
 }

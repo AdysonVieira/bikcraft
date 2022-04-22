@@ -7,6 +7,10 @@
 }
 
 .titulo-m {
+    font: 400 1.5rem/1.35 "Poppins", sans-serif;
+}
+
+.titulo-s {
     font: 400 1.125rem/1.35 "Poppins", sans-serif;
 }
 

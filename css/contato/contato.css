@@ -54,16 +54,6 @@
     box-shadow: 1px 2px 1px var(--cor-200);
 }
 
-.formulario {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.formulario button {
-    justify-self: start;
-}
-
 .lojas {
     padding-top: 64px;
     padding-bottom: 120px;
@@ -93,6 +83,11 @@
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
+}
+
+.card-conteudo ul{
+    border-left: 2px solid var(--cor-300);
+    padding-left: 8px;
 }
 
 .card-conteudo h3 {
