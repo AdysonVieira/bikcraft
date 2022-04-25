@@ -20,7 +20,9 @@
 /* Pages */
 @import './css/termos/termos.css';
 @import './css/bicicletas/bicicletas.css';
+@import './css/bicicletas/bicicleta.css';
 @import './css/seguros/seguros.css';
 @import './css/seguros/vantagens.css';
 @import './css/contato/contato.css';
+@import './css/perguntas/perguntas.css';
 
