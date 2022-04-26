@@ -7,6 +7,7 @@
 .bicicleta {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: start;
     gap: 40px;
 }
 
@@ -31,9 +32,10 @@
 .galeria img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
-.informacoes p {
+.informacoes > p {
     margin-bottom: 32px;
 }
 
@@ -53,6 +55,7 @@
     grid-template-rows: 1fr 1fr;
     place-items: center;
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .grid-info a {
@@ -60,3 +63,63 @@
     grid-row: 1/-1;
 }
 
+.informacoes h3 {
+    font: 300 0.75rem/1 "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: var(--cor-branco);
+    margin-bottom: 16px;
+
+}
+.informacoes-container {
+    padding: 32px;
+    border-radius: 4px;
+    background: var(--cor-1200);
+    margin-bottom: 40px;
+}
+.informacoes-vantagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.vantagem-item img {
+    width: 24px;
+    margin-bottom: 4px;
+}
+
+.vantagem-item h2 {
+    margin-bottom: 12px;
+}
+
+.ficha li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--cor-1100);
+    margin-bottom: 8px;
+}
+
+.ficha li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.ficha li span {
+    color: var(--cor-600);
+}
+
+@media (max-width: 1200px) {
+    .galeria {
+        grid-template-areas: "nimbus" "nebula" "magic";
+    }
+}
+
+@media (max-width: 800px) {
+    .bicicleta {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria {
+        grid-template-areas: "nimbus nimbus" "nebula magic";
+    }
+}
