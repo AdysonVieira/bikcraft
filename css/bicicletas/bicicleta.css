@@ -1,0 +1,62 @@
+.bicicleta-bg {
+    background: var(--cor-1100);
+    padding-bottom: 64px;
+
+}
+
+.bicicleta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-areas: "nimbus nimbus" "nebula magic";
+    gap: 20px;
+}
+
+.galeria img[alt="bicicleta Nimbus"] {
+    grid-area: nimbus;
+}
+
+.galeria img[alt="bicicleta Nebula"] {
+    grid-area: nebula;
+}
+
+.galeria img[alt="bicicleta Magic"] {
+    grid-area: magic;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+}
+
+.informacoes p {
+    margin-bottom: 32px;
+}
+
+.entrega, .estoque {
+    background: var(--cor-1200);
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+}
+
+.grid-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    gap: 10px;
+}
+
+.grid-info a {
+    min-width: max-content;
+    grid-row: 1/-1;
+}
+
