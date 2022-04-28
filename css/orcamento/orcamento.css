@@ -1,0 +1,15 @@
+#orcamento {
+    background: var(--cor-1100);
+}
+
+.orcamento-escolha h2 {
+    font: 300 0.75rem/1 "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: var(--cor-500);
+    margin-bottom: 16px;
+    background: var(--cor-1200);
+}
+
+label {
+    color: var(--cor-branco);
+}
