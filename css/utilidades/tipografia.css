@@ -14,6 +14,10 @@
     font: 400 1.125rem/1.35 "Poppins", sans-serif;
 }
 
+.titulo-xs {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
 .sob-titulo {
     font: 400 1.125rem/1.5 "Roboto", sans-serif;
     letter-spacing: 0.015em;
