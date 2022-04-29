@@ -1,20 +1,46 @@
 #orcamento {
-    background: var(--cor-1100);
+    background: linear-gradient(to bottom, var(--cor-1100) 30%, var(--cor-branco) 0);
 }
 
 .orcamento {
     display: grid;
     grid-template-columns: 5fr 7fr;
+    padding-bottom: 120px;
 }
 
-.orcamento h2 {
+.orcamento h2,
+.orcamento-conteudo h2{
     font: 300 0.75rem/1 "Poppins", sans-serif;
     text-transform: uppercase;
     color: var(--cor-500);
     margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.orcamento h2::before,
+.orcamento-conteudo h2::before{
+    content: "";
+    width: 4px;
+    height: 8px;
+    background-color: var(--cor-p100);
+    position: absolute;
+    left: -12px;
+}
+
+.orcamento-escolha {
+    background: var(--cor-1200);
+    padding: 32px;
+}
+
+.orcamento-escolha label {
+    font: 300 1rem/1 "Poppins", sans-serif;
+    color: var(--cor-500);
 }
 
 .orcamento-form {
     background: var(--cor-branco);
     padding: 32px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
