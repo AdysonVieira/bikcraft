@@ -37,7 +37,7 @@
 }
 .perguntas dd {
     padding-left: 20px;
-    width: 75ch;
+    max-width: 75ch;
 }
 
 .perguntas dl > div {
@@ -48,3 +48,4 @@
 .perguntas div:nth-child(odd) {
     background: var(--cor-100);
 }
+
