@@ -49,3 +49,11 @@
     background: var(--cor-100);
 }
 
+.resposta {
+    display: none;
+}
+
+.resposta.ativo {
+    display: block;
+}
+
