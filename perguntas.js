@@ -1,8 +1,13 @@
-const pergunta = document.querySelector('.pergunta');
-const resposta = document.querySelector('.resposta');
+const perguntas = document.querySelectorAll('dl div .pergunta');
+const respostas = document.querySelectorAll('dl div .resposta');
 
-function mostrar() {
-    resposta.classList.toggle('ativo')
+function mostrarResposta(event) {
+    console.log(event.currentTarget)
 }
 
-pergunta.addEventListener('click', mostrar)
+function mostrar(pergunta) {
+    console.log(pergunta)
+    pergunta.addEventListener('click', mostrarResposta)
+}
+
+perguntas.forEach(mostrar)
