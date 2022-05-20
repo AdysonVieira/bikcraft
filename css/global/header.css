@@ -30,7 +30,7 @@
     font-weight: 400;
 }
 
-.header-menu a:after {
+.header-menu a::after {
     content: '';
     display: block;
     background-color: #ffbb00;
@@ -40,8 +40,8 @@
     position: absolute;
     transition: 0.3s;
 }
-.header-menu a.pagina-ativa:hover::after,
-.header-menu a:hover:after {
+.header-menu a:hover::after,
+.header-menu a.pagina-ativa::after {
     width: 100%;
 }
 

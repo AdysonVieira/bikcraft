@@ -5,8 +5,6 @@ function trocaImagem(event) {
     const alvo = event.currentTarget;
     imagemPrincipal.src = alvo.src
     imagemPrincipal.getAttribute('alt', alvo.getAttribute('alt'));
-
-
 }
 
 function adicionaEvento(imagem) {
