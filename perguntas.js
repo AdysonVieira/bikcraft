@@ -2,12 +2,12 @@ const perguntas = document.querySelectorAll('dl div .pergunta');
 const respostas = document.querySelectorAll('dl div .resposta');
 
 function mostrarResposta(event) {
-    console.log(event.currentTarget)
+    const alvo = event.currentTarget
+    resposta.classList.toggle('ativo')
 }
 
-function mostrar(pergunta) {
-    console.log(pergunta)
+function cliquePergunta(pergunta) {
     pergunta.addEventListener('click', mostrarResposta)
 }
 
-perguntas.forEach(mostrar)
+perguntas.forEach(cliquePergunta)

@@ -11,19 +11,17 @@
     gap: 40px;
 }
 
-.galeria {
+.galeria-secondary {
     display: flex;
     flex-wrap: wrap;
+    overflow-x: scroll;
     gap: 20px;
 }
 
 .galeria img {
     flex: 1;
-    min-width: 200px;
-}
-
-.galeria img:first-child {
-    min-width: 100%;
+    min-width: 100px;
+    margin-bottom: 20px;
 }
 
 .informacoes > p {
