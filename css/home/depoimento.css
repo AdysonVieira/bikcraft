@@ -58,6 +58,11 @@
 
     .depoimento-conteudo p::before {
         left: -20px;
+        font-size: 3rem;
+    }
+
+    .depoimento-conteudo p::after {
+        font-size: 3rem;
     }
 
     .depoimento img {

@@ -64,4 +64,8 @@
     .seguros-conteudo {
         grid-template-columns: 1fr;
     }
+
+    .seguros h2 {
+        margin-bottom: 32px;
+    }
 }
