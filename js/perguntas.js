@@ -1,13 +1,20 @@
-const perguntas = document.querySelectorAll('dl div .pergunta');
-const respostas = document.querySelectorAll('dl div .resposta');
+const perguntas = document.querySelectorAll('.perguntas dt buttom');
 
-function mostrarResposta(event) {
-    const alvo = event.currentTarget
-    resposta.classList.toggle('ativo')
+function ativaResposta(event) {
+    const pergunta = event.currentTarget;
+    const ariaControl = pergunta.getAttribute('aria-controls');
+    const resposta = document.getElementById(ariaControl);
+    if(resposta) {
+        resposta.classList.toggle('resposta-ativa');
+    }
+    const respostaAtiva = resposta.classList.contains("resposta-ativa");
+    pergunta.setAttribute('aria-expanded', respostaAtiva);
+    console.log(respostaAtiva);
+    console.log(pergunta);
 }
 
-function cliquePergunta(pergunta) {
-    pergunta.addEventListener('click', mostrarResposta)
+function eventoPergunta(pergunta) {
+    pergunta.addEventListener('click', ativaResposta)
 }
 
-perguntas.forEach(cliquePergunta)
+perguntas.forEach(eventoPergunta);
