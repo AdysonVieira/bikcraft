@@ -1,31 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap");
-@import './css/global/global.css';
+@import './global/global.css';
 
 /* Componentes */
-@import './css/utilidades/tipografia.css';
-@import './css/utilidades/cores.css';
-@import './css/utilidades/componentes.css';
-@import './css/utilidades/formularios.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/cores.css';
+@import './utilidades/componentes.css';
+@import './utilidades/formularios.css';
 
 /* Global */
-@import './css/global/header.css';
-@import './css/global/footer.css';
+@import './global/header.css';
+@import './global/footer.css';
 
 /* Home */
-@import './css/home/introducao.css';
-@import './css/home/home-bicicletas.css';
-@import './css/home/tecnologia.css';
-@import './css/home/parceiros.css';
-@import './css/home/depoimento.css';
+@import './home/introducao.css';
+@import './home/home-bicicletas.css';
+@import './home/tecnologia.css';
+@import './home/parceiros.css';
+@import './home/depoimento.css';
 
 /* Pages */
-@import './css/termos/termos.css';
-@import './css/bicicletas/bicicletas.css';
-@import './css/bicicletas/bicicleta.css';
-@import './css/seguros/seguros.css';
-@import './css/seguros/vantagens.css';
-@import './css/contato/contato.css';
-@import './css/perguntas/perguntas.css';
-@import './css/bicicletas/seguro-bicicleta.css';
-@import './css/orcamento/orcamento.css';
+@import './termos/termos.css';
+@import './bicicletas/bicicleta.css';
+@import './bicicletas/bicicletas.css';
+@import './seguros/seguros.css';
+@import './seguros/vantagens.css';
+@import './contato/contato.css';
+@import './perguntas/perguntas.css';
+@import './bicicletas/seguro-bicicleta.css';
+@import './orcamento/orcamento.css';
 
