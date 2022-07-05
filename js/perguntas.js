@@ -9,12 +9,8 @@ function ativaResposta(event) {
     }
     const respostaAtiva = resposta.classList.contains("resposta-ativa");
     pergunta.setAttribute('aria-expanded', respostaAtiva);
-    console.log(respostaAtiva);
-    console.log(pergunta);
 }
 
-function eventoPergunta(pergunta) {
-    pergunta.addEventListener('click', ativaResposta)
-}
-
-perguntas.forEach(eventoPergunta);
+perguntas.forEach((pergunta) => {
+    pergunta.addEventListener('click', ativaResposta);
+});

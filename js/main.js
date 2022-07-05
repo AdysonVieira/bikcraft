@@ -11,3 +11,16 @@ function verificaLinkAtivo(link) {
 }
 
 links.forEach(verificaLinkAtivo);
+
+const header = document.querySelector('.header');
+const openMenu = document.querySelector('.open-menu');
+const closeMenu = document.querySelector('.close-menu');
+
+function expandeMenu(event) {
+    header.classList.add('mobile-ativo');
+}
+function fechaMenu(event) {
+    header.classList.remove('mobile-ativo')
+}
+openMenu.addEventListener('click', expandeMenu);
+closeMenu.addEventListener('click', fechaMenu);
